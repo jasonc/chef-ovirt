@@ -18,21 +18,23 @@ Attributes
 
 ### default
 
-* `node['ovirt']['ovirt_release_base_url']` - This setting can be used to override the default url of http://ovirt.org/releases.
+* `node['ovirt']['ovirt_release_rpm_url']` - This setting can be used to override the default oVirt release RPM URL of http://ovirt.org/releases/ovirt-release-$OS.noarch.rpm.
 
-* `node['ovirt']['application_mode']` - This setting can be used to override the default ovirt application mode of both.  Valid options are both, virt, gluster.
+* `node['ovirt']['ovirt_release_base_url']` - This setting can be used to override the default oVirt release base URL of http://ovirt.org/releases.
 
-* `node['ovirt']['storage_type']` - This setting can be used to override the default ovirt storage type of nfs.  Valid options are nfs, fc, iscsi, and posixfs.
+* `node['ovirt']['application_mode']` - This setting can be used to override the default oVirt application mode of both.  Valid options are both, virt, gluster.
 
-* `node['ovirt']['organization']` - This setting can be used to override the default ovirt PKI organization of localdomain.
+* `node['ovirt']['storage_type']` - This setting can be used to override the default oVirt storage type of nfs.  Valid options are nfs, fc, iscsi, and posixfs.
 
-* `node['ovirt']['nfs_config_enabled']` - This setting can be used to override the default ovirt nfs configuration of true.  Valid options are true and false.
+* `node['ovirt']['organization']` - This setting can be used to override the default oVirt PKI organization of localdomain.
+
+* `node['ovirt']['nfs_config_enabled']` - This setting can be used to override the default oVirt nfs configuration of true.  Valid options are true and false.
 
 * `node['ovirt']['iso_domain_name']` - This setting can be used to override the default ISO Domain Name of ISO_DOMAIN.
 
 * `node['ovirt']['iso_domain_mount_point']` - This setting can be used to override the default ISO Domain Mount Point of /var/lib/exports/iso.
 
-* `node['ovirt']['admin_password']` - This setting can be used to override the default ovirt admin password of admin.
+* `node['ovirt']['admin_password']` - This setting can be used to override the default oVirt admin password of admin.
 
 * `node['ovirt']['db_user']` - This setting can be used to override the default database user of engine.
 
@@ -43,6 +45,8 @@ Attributes
 * `node['ovirt']['db_port']` - This setting can be used to override the default database port of 5432.
 
 * `node['ovirt']['firewall_manager']` - This setting can be used to override the default firewall manager.  The module uses iptables for RHEL and CentOS and firewalld for Fedora by default.  Valid options are iptables and firewalld.
+
+* `node['ovirt']['answers_file']` - This setting can be used to override the default value of /var/lib/ovirt-engine/setup/answers/answers-from-chef.
 
 
 Usage
