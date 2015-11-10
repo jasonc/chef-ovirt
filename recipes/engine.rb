@@ -17,7 +17,7 @@ end
 template node['ovirt']['answers_file'] do
   source 'answers.erb'
 end
-  
+
 bash 'engine-setup' do
   user 'root'
   path ['/usr/bin', '/bin', '/sbin', '/usr/sbin']
