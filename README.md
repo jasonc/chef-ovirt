@@ -18,9 +18,11 @@ Attributes
 
 ### default
 
-* `node['ovirt']['ovirt_release_rpm_url']` - This setting can be used to override the default oVirt release RPM URL of http://ovirt.org/releases/ovirt-release-$OS.noarch.rpm.
+* `node['ovirt']['ovirt_release_rpm_url']` - This setting can be used to override the default oVirt release RPM URL of http://plain.resources.ovirt.org/pub/yum-repo/ovirt-release36.rpm.
 
-* `node['ovirt']['ovirt_release_base_url']` - This setting can be used to override the default oVirt release base URL of http://ovirt.org/releases.
+* `node['ovirt']['ovirt_release_base_url']` - This setting can be used to override the default oVirt release base URL of http://plain.resources.ovirt.org/pub/yum-repo.
+
+* `node['ovirt']['ovirt_release_rpm']` - This setting can be used to override the default oVirt release RPM version of ovirt-release36.rpm.
 
 * `node['ovirt']['application_mode']` - This setting can be used to override the default oVirt application mode of both.  Valid options are both, virt, gluster.
 
