@@ -4,10 +4,10 @@
 # Author:: Jason Cannon
 #
 
-default['ovirt']['application_mode']       = 'both'		# both, virt, gluster
-default['ovirt']['storage_type']           = 'nfs'		# nfs, fc, iscsi, posixfs
+default['ovirt']['application_mode']       = 'both'     # both, virt, gluster
+default['ovirt']['storage_type']           = 'nfs'      # nfs, fc, iscsi, posixfs
 default['ovirt']['organization']           = 'localdomain'
-default['ovirt']['nfs_config_enabled']     = true		# true, false
+default['ovirt']['nfs_config_enabled']     = true       # true, false
 default['ovirt']['iso_domain_name']        = 'ISO_DOMAIN'
 default['ovirt']['iso_domain_mount_point'] = '/var/lib/exports/iso'
 default['ovirt']['admin_password']         = 'admin'
