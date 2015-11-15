@@ -3,6 +3,10 @@ ovirt cookbook CHANGELOG
 
 This file is used to list changes made in each version of the ovirt cookbook.
 
+0.1.4
+-----
+- Fixed NFS BUG #5 , Added missing parameter for NFS ACL.
+- Updated README and CHANGELOG
 
 0.1.3
 -----
