@@ -36,6 +36,8 @@ Attributes
 
 * `node['ovirt']['iso_domain_mount_point']` - This setting can be used to override the default ISO Domain Mount Point of /var/lib/exports/iso.
 
+* `node['ovirt']['iso_domain_acl']` - This setting can be used to override the default ISO Domain ACL of *(rw).
+
 * `node['ovirt']['admin_password']` - This setting can be used to override the default oVirt admin password of admin.
 
 * `node['ovirt']['db_user']` - This setting can be used to override the default database user of engine.

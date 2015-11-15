@@ -10,6 +10,7 @@ default['ovirt']['organization']           = 'localdomain'
 default['ovirt']['nfs_config_enabled']     = true       # true, false
 default['ovirt']['iso_domain_name']        = 'ISO_DOMAIN'
 default['ovirt']['iso_domain_mount_point'] = '/var/lib/exports/iso'
+default['ovirt']['iso_domain_acl']         = '*(rw)'
 default['ovirt']['admin_password']         = 'admin'
 default['ovirt']['db_user']                = 'engine'
 default['ovirt']['db_password']            = 'dbpassword'
