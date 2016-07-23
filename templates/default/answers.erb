@@ -14,6 +14,7 @@ OVESETUP_SYSTEM/nfsConfigEnabled=bool:<%= node['ovirt']['nfs_config_enabled'] ? 
 OVESETUP_PKI/organization=str:<%= node['ovirt']['organization'] %>
 OVESETUP_CONFIG/isoDomainName=str:<%= node['ovirt']['iso_domain_name'] %>
 OVESETUP_CONFIG/isoDomainMountPoint=str:<%= node['ovirt']['iso_domain_mount_point'] %>
+OVESETUP_CONFIG/isoDomainACL=str:<%= node['ovirt']['iso_domain_acl'] %>
 OVESETUP_CONFIG/adminPassword=str:<%= node['ovirt']['admin_password'] %>
 OVESETUP_CONFIG/applicationMode=str:<%= node['ovirt']['application_mode'] %>
 OVESETUP_CONFIG/firewallManager=str:<%= node['ovirt']['firewall_manager'] %>
